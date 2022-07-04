@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Riggle Sales</string>
+    <string name="app_name"Base</string>
    <!--<string name="place_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCwPx29lISD18eKQEYzHs-ZFqVpjVfNBKQ&lt;!&ndash;AIzaSyAe89wSeaCjapEyZ6iLO_XD90tkijfD0NU&ndash;&gt;</string>-->
     <string name="place_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCK2aAnZIJ-JCv_-a5AXWn34pyoZCrj49E</string>
     <string name="session_expired">session_expired</string>   <!--AIzaSyCwPx29lISD18eKQEYzHs-ZFqVpjVfNBKQ-->
