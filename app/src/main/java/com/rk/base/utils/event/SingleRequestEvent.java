@@ -24,8 +24,7 @@ import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
 
 import com.rk.base.utils.Resource;
-
-public class SingleRequestEvent<T> extends MutableLiveData<Resource<T>> {
+public class SingleRequestEvent<T> extends SingleLiveEvent<Resource<T>> {
     public interface RequestObserver<T> {
         void onRequestReceived(@NonNull Resource<T> resource);
     }
@@ -37,9 +36,9 @@ public class SingleRequestEvent<T> extends MutableLiveData<Resource<T>> {
                 if (resource == null) {
                     return;
                 }
-
                 observer.onRequestReceived(resource);
             }
         });
     }
 }
+
